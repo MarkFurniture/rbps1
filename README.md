@@ -1,6 +1,12 @@
-Ruby implemented dynamic PS1 prompt for bash, inspired by powerline-shell.
+## RubyPS1
 
-Installation:
+Ruby implemented dynamic PS1 prompt for bash, inspired by [powerline-shell](https://github.com/b-ryan/powerline-shell).
+
+###### Why not powerline-shell?
+1. Primarily, pedagogy.
+2. I only have need of a subset of powerline-shell's functionality, and wanted to run a performant PS1 prompt without requiring a daemon in the background. Running powerline-shell without a daemon is subject to python's startup time and performs IO that is superfluous to my needs, hence this simplified version.
+
+###### Installation:
 
 1. Clone this repo:
 ```
