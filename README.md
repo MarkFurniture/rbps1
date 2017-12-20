@@ -24,7 +24,7 @@ $ chmod +x ps1.rb
 4. Add to ~/.bashrc or ~/.bash_profile:
 ```
 function _update_ps1() {
-    PS1="$(/Users/mike/src/cpp/ps1/ps1 $?)"
+    PS1="$(rubyps1 $?)"
 }
 
 if [ "$TERM" != "linux" ]; then
